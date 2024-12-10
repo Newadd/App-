@@ -1,0 +1,177 @@
+/* Global Styles */
+:root {
+  --primary-color: #1b1b1b;
+  --secondary-color: #dedede;
+  --accent-color: #b80505;
+  --link-hover-bg: #555;
+  --border-color: #c300fa;
+}
+
+html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins", Arial, sans-serif;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+
+/* Main Container */
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Header Section */
+.background-image {
+  width: 100%;
+  height: auto;
+}
+
+/* Profile Section */
+.profile {
+  margin-top: -80px;
+}
+
+.profile-picture {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 3px solid #fff;
+}
+
+.username {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.verified {
+  color: var(--accent-color);
+  font-size: 18px;
+}
+
+.subtitle {
+  font-size: 14px;
+  color: #0805b8;
+}
+
+.tags {
+  margin: 20px 0;
+}
+
+.tag {
+  display: inline-block;
+  background-color: #222;
+  color: #fff;
+  padding: 5px 10px;
+  margin: 5px;
+  border-radius: 15px;
+  font-size: 12px;
+}
+
+/* Form Section */
+main {
+  width: 100%;
+  padding: 20px;
+}
+
+main .title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+main .form {
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+  background-color: #333;
+  border-radius: 10px;
+  border: 1px solid var(--border-color);
+  padding: 20px;
+}
+
+main .form .field {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+main .form .field input,
+main .form .field textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: var(--secondary-color);
+  resize: none;
+  border: 1px solid transparent;
+  font-family: "Poppins", sans-serif;
+}
+
+main .form .field input:focus,
+main .form .field textarea:focus {
+  border: 1px solid #ada283;
+  outline: none;
+}
+
+main .form .field button {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #b605b8;
+  color: var(--accent-color);
+  font-weight: bold;
+  font-size: 1em;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+}
+
+main .form .field:last-child {
+  margin-bottom: 0;
+}
+
+/* Social Links Section */
+.social-links .icon {
+  display: inline-block;
+  margin: 5px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+/* Links Section */
+.links .link {
+  display: block;
+  margin: 10px 0;
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #333;
+  transition: background-color 0.3s;
+}
+
+.links .link:hover {
+  background-color: var(--link-hover-bg);
+}
+
+/* Footer Section */
+.footer {
+  margin-top: 20px;
+  font-size: 12px;
+  color: #888;
+}
+
+/* Additional Styles */
+.berjalan {
+  background-color: transparent;
+}
